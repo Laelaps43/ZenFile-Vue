@@ -5,6 +5,10 @@ module.exports = {
     "./src/**/*.{vue,js,ts,jsx,tsx}",
   ],
   theme: {
+    borderColor: theme => ({
+       DEFAULT: theme('colors.gray.300', 'currentColor'),
+      'primary': '#2486d3',
+     }),
     extend: {},
   },
   plugins: [],

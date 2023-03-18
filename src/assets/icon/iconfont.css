@@ -1,0 +1,163 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 3960407 */
+  src: url('iconfont.woff2?t=1679138699241') format('woff2'),
+       url('iconfont.woff?t=1679138699241') format('woff'),
+       url('iconfont.ttf?t=1679138699241') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-gengduo:before {
+  content: "\e73a";
+}
+
+.icon-shezhi:before {
+  content: "\e68f";
+}
+
+.icon-fanhui:before {
+  content: "\e6ff";
+}
+
+.icon-yanzhengma54:before {
+  content: "\e665";
+}
+
+.icon-gongju:before {
+  content: "\e670";
+}
+
+.icon-rizhi:before {
+  content: "\e610";
+}
+
+.icon-lianjie:before {
+  content: "\e612";
+}
+
+.icon-onedrive:before {
+  content: "\e829";
+}
+
+.icon-yingpan:before {
+  content: "\e609";
+}
+
+.icon-google:before {
+  content: "\ea0c";
+}
+
+.icon-IP:before {
+  content: "\e632";
+}
+
+.icon-suijiyonghu:before {
+  content: "\e603";
+}
+
+.icon-yonghu:before {
+  content: "\e633";
+}
+
+.icon-yonghuxinxi:before {
+  content: "\e620";
+}
+
+.icon-yunhangjiankong:before {
+  content: "\e621";
+}
+
+.icon-time:before {
+  content: "\e766";
+}
+
+.icon-trash:before {
+  content: "\e767";
+}
+
+.icon-upload:before {
+  content: "\e768";
+}
+
+.icon-warning:before {
+  content: "\e769";
+}
+
+.icon-search:before {
+  content: "\e76a";
+}
+
+.icon-wenjian:before {
+  content: "\e600";
+}
+
+.icon-wenben:before {
+  content: "\e601";
+}
+
+.icon-daimawenjian:before {
+  content: "\e602";
+}
+
+.icon-tupian:before {
+  content: "\e63e";
+}
+
+.icon-wenjianjiatianjia:before {
+  content: "\e616";
+}
+
+.icon-wenjianjiashanchu:before {
+  content: "\e617";
+}
+
+.icon-weibiaoti-_huabanfuben:before {
+  content: "\e60f";
+}
+
+.icon-wenjianleixing-suolvetu-wenjianjia:before {
+  content: "\e6a9";
+}
+
+.icon-add:before {
+  content: "\e664";
+}
+
+.icon-close:before {
+  content: "\e668";
+}
+
+.icon-favorite:before {
+  content: "\e66f";
+}
+
+.icon-icon-test:before {
+  content: "\e63c";
+}
+
+.icon-business-icon-ali-clould:before {
+  content: "\e822";
+}
+
+.icon-delete-fill:before {
+  content: "\e839";
+}
+
+.icon-confirm:before {
+  content: "\e83a";
+}
+
+.icon-delete:before {
+  content: "\e83b";
+}
+
+.icon-selected:before {
+  content: "\e840";
+}
+
