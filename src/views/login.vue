@@ -15,9 +15,6 @@
             <el-form-item label="密码" prop="password">
                 <el-input placeholder="请输入密码" type="password"  show-password size="large" v-model="form.password"/>
             </el-form-item>
-            <!-- <el-form-item label="Activity form" class="w-4/5">
-                <el-input />
-            </el-form-item> -->
             <el-form-item>
                 <el-button class="w-full h-10 mt-4" size="large" color="#22c7da" @click="onSumbit(ruleFormRef)">登录</el-button>
             </el-form-item>
@@ -26,7 +23,7 @@
     </div>
 </template>
 <script setup lang="ts">
-import { reactive, ref, h } from 'vue'
+import { reactive, ref} from 'vue'
 import type { FormInstance, FormRules } from 'element-plus'
 
 

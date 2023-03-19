@@ -13,6 +13,14 @@ const routes = [
     {
         path: '/file',
         component: import('../views/file.vue')
+    },
+    {
+        path: '/changepassword',
+        component: import('../views/ChangePassword.vue')
+    },
+    {
+        path: '/setting',
+        component: import('../views/SystemConfig.vue')
     }
 ]
 

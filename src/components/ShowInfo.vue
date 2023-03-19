@@ -86,7 +86,7 @@
                 <span class="text-xl">系统工具</span>
             </div>
             <div class="pl-5 grid grid-cols-3">
-                <div v-for="item in systems" class="h-20 flex flex-col justify-evenly items-center hover:bg-slate-300">
+                <div v-for="item in systems" class="h-20 flex flex-col justify-evenly items-center hover:bg-slate-300" @click="router.push(item.url)">
                     <svg class="icon w-6 h-6" aria-hidden="true" :fill="item.color">
                         <use :xlink:href="item.icon"></use>
                     </svg>
@@ -99,12 +99,14 @@
 
 <script setup>
 import { reactive, ref } from 'vue'
+import { useRoute, useRouter } from 'vue-router';
 
+const router = useRouter()
 const items = ref([{ source: 'local', name: '本地存储', online: true, capaticy: 40 },
 { source: 'onedrive', name: 'OneDrive', online: true, capaticy: 80 },
 { source: 'google', name: 'Google Drive', online: true, capaticy: 20 }])
 
-const systems = ref([{ icon: '#icon-shezhi', name: '系统设置', color: '#06c8fd' },
+const systems = ref([{ icon: '#icon-shezhi', name: '系统设置', color: '#06c8fd', url: '/setting'},
 { icon: '#icon-yanzhengma54', name: '验证码管理', color: '#a26df6' },
 { icon: '#icon-lianjie', name: '短链管理', color:'#09a9cd'},
 { icon: '#icon-suijiyonghu', name: '临时用户管理', color: '#fe7c36'},
